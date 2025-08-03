@@ -1,6 +1,71 @@
 body{
-    background-color: #034733;
+    background-color: #0d2820ff;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
+}
+.card{
+    background-color: rgb(24, 6, 59);
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    width: 132px;
+    height: 176px;
+    
+}
+.cards{
+    background-color: #1a3d3d;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    color: #ffffff;
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 550px;
+    width: 500px;   
+    padding: 20px;
+    align-items: center;
+    justify-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container .elecciones {
+    display: flex;
+    
+    width: 100%;
+}
+
+.opciones {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.opciones button {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.elecciones {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+.elecciones button {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
 }
